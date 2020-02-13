@@ -1,1 +1,7 @@
-# htmlcssjs_side
+Boiler Plate
+
+
+css 
+
+> . for class 
+> # for id 
