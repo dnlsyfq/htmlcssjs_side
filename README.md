@@ -10,7 +10,7 @@
 * text-decoration: line-through;
 * font-size:23;
 * text-transform:lowercase|uppercase|capitalize|initial|inherit|none;
-* transform: scale(int); /*change the scale of an element*/
+* transform: scale(int)|skewX(deg)|skewY(deg); /*change the scale of an element*/
 
 |value|result|
 |---|---|
@@ -51,7 +51,73 @@ anchor tag hover state ,  styling of an anchor tag can be changed for its hover 
 p:hover {
   transform: scale(2.1);
 }
+
+<style>
+  div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+
+    div:hover{
+      transform:scale(1.1);
+    }
+  }
+
+
+
+</style>
+
+<div></div>
 ```
+
+* pseudo elements , ::before , ::after
+
+ These pseudo-elements are used to add something before or after a selected element. In the following example, a ::before pseudo-element is used to add a rectangle to an element with the class heart
+
+ ```
+<style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+  .heart::after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart::before {
+    content: "";
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+</style>
+<div class="heart"></div>
+
+ ```
+
 
 ---
 **Navigation Bar**
@@ -78,7 +144,7 @@ p:hover {
 
 * width: px | em | % ;
 * height: px| em | % ;
-* background-color: rgba(digit,digit,digit,0-1) 0 clear 1 opaque
+* background-color: transparent| rgba(digit,digit,digit,0-1); 0 clear 1 opaque
 * opacity: 0-1;
 * z-index: digit; /*z-index property can specify the order of how elements are stacked on top of one another. */
 * margin: auto; /**/
