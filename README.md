@@ -29,6 +29,15 @@
 
 (ASCII)[http://www.ascii.cl/htmlcodes.html]
 
+**Html Language**
+* follow ISO 639-2
+* [other language codes](http://www.loc.gov/standards/iso639-2/php/code_list.php)
+
+```
+<html lang="en">
+</html>
+```
+
 # CSS
 
 ---
