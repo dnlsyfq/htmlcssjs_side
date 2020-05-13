@@ -1,3 +1,34 @@
+# HTML
+
+**Attributes**
+
+* input type
+```
+<input type="email" name="email_address" required>
+
+<input type="email" name="email_address" required="">
+```
+
+**Markdown**
+
+* less than , < 
+```
+&lt;
+```
+
+* greater than, >
+```
+&gt;
+```
+
+* ampersand, &
+```
+&amp;
+```
+<p>Everyone loves fonts by Ambercrombie &amp; Fitch </p>
+
+(ASCII)[http://www.ascii.cl/htmlcodes.html]
+
 # CSS
 
 ---
