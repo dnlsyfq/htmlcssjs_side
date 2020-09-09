@@ -182,6 +182,18 @@ p:hover {
 ---
 **Image**
 
+```
+<figure>
+  <img src="imgs/Ashtabula.jpg" width="500px|50%" alt="My house">
+  <figcaption>Set image size</figcaption>
+</figure>
+```
+
+* PNG in WEB
+```
+<link rel='icon' type="image/png" href="./_.png">
+```
+
 * width: px | em | % ;
 * height: px| em | % ;
 * background-color: transparent| rgba(digit,digit,digit,0-1); 0 clear 1 opaque
@@ -205,6 +217,8 @@ rgba stands for:
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 ```
 ---
+
+
 
 **Color**
 
@@ -543,4 +557,15 @@ the amount of white or black in a color. A percentage is given ranging from 0% (
 * horizontal line 
 ```
 <hr>
+```
+
+---
+
+# NPM 
+
+```
+npm install --save @fortawesome/fontawesome-free
+
+https://github.com/FortAwesome/Font-Awesome
+
 ```
