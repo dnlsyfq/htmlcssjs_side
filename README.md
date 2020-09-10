@@ -559,6 +559,46 @@ the amount of white or black in a color. A percentage is given ranging from 0% (
 <hr>
 ```
 
+* hyperlink
+
+target 
+```
+ _self
+ _blank
+ _top
+ _parent
+ ```
+
+
+ * Audio , Video 
+
+ <video src="_.mov" width="400" controls></video>
+
+ <audio src="_.ogg#t=15:35" controls></audio>
+
+ * Table
+
+ ```
+ <table border=1>
+ <tr><th></th></tr>
+  <tr><td rowspan=2></td></tr>
+ </table>
+ ```
+
+ * Tags
+
+ **Generic**
+  * <p>, <div>
+
+**Semantic**
+  * <header>, <nav>, <footer>, <figure>
+
+* Block Tags
+  * Containers : <article>, <aside>, <section>, <main>
+  * <hr>
+  * <address>
+  * <blockquote> 
+  * details
 ---
 
 # NPM 
