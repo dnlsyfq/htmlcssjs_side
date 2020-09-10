@@ -599,6 +599,11 @@ target
   * <address>
   * <blockquote> 
   * details
+
+ * Change Text direction 
+```
+<bdo dir="rtl">This text will go right to left</bdo>
+```
 ---
 
 # NPM 
