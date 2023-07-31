@@ -40,6 +40,13 @@
 
 # CSS
 
+> You can easily remember this order with this mnemonic device: “Going clockwise, Margin and Padding are TRouBLe!” (where T = top, R = right, B = bottom, and L = left).
+
+```
+ Classes are accessed using the period (.) and IDs are accessed using the pound or hash (#) symbol.
+```
+
+
 ---
 **Text**
 
